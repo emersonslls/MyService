@@ -1,0 +1,393 @@
+header {
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 1440px;
+    height: 100px;
+    left: calc(50% - 1440px/2);
+    top: 50px;
+
+    background: rgba(227, 227, 227, 0.3);
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+
+    z-index: 99;
+}
+
+.logo {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: auto;
+    height: 45px;
+    left: 99px;
+    top: calc(50% - 45px/2);
+
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+
+    position: absolute;
+    width: 570px;
+    height: 30px;
+    right: 270px;
+    top: calc(50% - 30px/2);
+}
+
+nav li {
+    height: 100px;
+
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
+
+    color: var(--black);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    cursor: pointer;
+}
+
+nav li:hover {
+    font-weight: 600;
+}
+
+.buttonContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px 10px 10px;
+    gap: 10px;
+
+    width: 104px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 120px;
+
+    background: var(--blue);
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+    cursor: pointer;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 39px;
+
+    color: var(--white);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    height: 45px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.closeIcon {
+    display: none;
+    position: absolute;
+    height: 27px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Redes {
+    display: none;
+    position: absolute;
+    background: none;
+    border: none;
+
+    & img {
+        position: absolute;
+        width: auto;
+        height: 25px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+
+/* <---- CSS MOBILE ----> */
+@media only screen and (width >=320px) and (width <=430px) {
+    header {
+        width: 100%;
+        height: 80px;
+        left: 0;
+        top: 0;
+        border-radius: 0;
+    }
+
+    .logo {
+        height: 30px;
+        left: 30px;
+        top: calc(50% - 30px/2);
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: -3px;
+        right: 0;
+        box-sizing: border-box;
+        width: 70%;
+        height: 500px;
+
+        background: var(--white);
+
+        border-radius: 0 0 0 20px;
+        box-shadow: -6px 6px 8px rgba(10, 9, 8, 0.1);
+
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 12px;
+
+        position: absolute;
+        width: 140px;
+        height: 225px;
+        left: calc(50% - 140px/2);
+        top: 120px;
+    }
+
+    nav li {
+        width: auto;
+        height: 30px;
+
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .navOpen {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        height: 25px;
+        right: 30px;
+        top: calc(50% - 25px/2);
+    }
+
+    .menuIcon {
+        display: flex;
+        width: auto;
+        height: 25px;
+    }
+
+    .closeIcon {
+        display: flex;
+        position: absolute;
+        height: 27px;
+        right: 3px;
+        top: calc(50% - 27px/2);
+    }
+
+    .buttonContact {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 14px;
+        gap: 10px;
+
+        position: absolute;
+        width: 130px;
+        height: 40px;
+        left: calc(50% - 130px/2);
+        top: 375px;
+
+        border-radius: 20px;
+
+        font-size: 20px;
+        line-height: 39px;
+    }
+}
+
+/* <---- CSS TABLET ----> */
+@media only screen and (width >=768px) and (width <=834px) {
+    header {
+        width: 700px;
+        height: 80px;
+        left: calc(50% - 700px/2);
+    }
+
+    .logo {
+        height: 30px;
+        left: 70px;
+        top: calc(50% - 30px/2);
+
+        z-index: 9;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: -3px;
+        right: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 420px;
+
+        background: var(--white);
+        border-width: 3px 3px 3px 3px;
+        border-radius: 35px 35px 50px 50px;
+        box-shadow: -6px 6px 8px rgba(10, 9, 8, 0.1);
+
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 12px;
+
+        position: absolute;
+        width: 140px;
+        height: 225px;
+        left: calc(50% - 140px/2);
+        top: calc(50% - 225px/2);
+    }
+
+    nav li {
+        width: auto;
+        height: 30px;
+
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .navOpen {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        height: 25px;
+        right: 70px;
+        top: calc(50% - 25px/2);
+    }
+
+    .menuIcon {
+        display: flex;
+        width: auto;
+        height: 25px;
+    }
+
+    .closeIcon {
+        display: flex;
+        position: absolute;
+        height: 27px;
+        right: 5px;
+        top: calc(50% - 27px/2);
+    }
+
+    .buttonContact {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 14px;
+        gap: 10px;
+
+        position: absolute;
+        width: 130px;
+        height: 40px;
+        left: calc(50% - 130px/2);
+        top: 335px;
+
+        border-radius: 20px;
+
+        font-size: 20px;
+        line-height: 39px;
+    }
+}
+
+/* <---- CSS NOTEBOOK ----> */
+@media only screen and (width >=1024px) and (width <=1440px) {
+    header {
+        width: 980px;
+        height: 80px;
+        left: calc(50% - 980px/2);
+    }
+
+    .logo {
+        height: 35px;
+        left: 80px;
+        top: calc(50% - 35px/2);
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    nav ul {
+        padding: 0px;
+        gap: 15px;
+
+        width: 440px;
+        height: 20px;
+        right: 180px;
+        top: calc(50% - 20px/2);
+    }
+
+    nav li {
+        font-size: 16px;
+        line-height: 100px;
+    }
+
+    .buttonContact {
+        padding: 10px 10px 1px;
+        gap: 10px;
+
+        width: 87px;
+        height: 80px;
+        right: 70px;
+
+        font-size: 16px;
+        line-height: 39px;
+    }
+}

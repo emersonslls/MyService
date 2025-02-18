@@ -1,0 +1,310 @@
+/* <----- HOME -----> */
+
+.Home {
+    position: relative;
+    width: 100%;
+    height: 900px;
+
+    background: var(--white);
+
+    overflow: hidden;
+}
+
+.ContainerTextHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    position: absolute;
+    width: 507px;
+    height: 460px;
+    left: 339px;
+    top: 245px;
+
+    & .TextsHome {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 15px;
+
+        width: 507px;
+        height: 388px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        & h1 {
+            width: 507px;
+            height: auto;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 49px;
+
+            color: var(--blueDark);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        & h2 {
+            width: 507px;
+            height: auto;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 26px;
+
+            color: var(--gray);
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+
+        & span {
+            font-weight: 600;
+        }
+    }
+
+    & .ButtonLearnMore {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 100px;
+        gap: 10px;
+
+        cursor: pointer;
+
+        width: 337px;
+        height: 56px;
+
+        background: var(--blue);
+        border-radius: 15px;
+        border: none;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+
+        color: var(--white);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
+
+.ImageIlustrationMao {
+    position: absolute;
+    width: auto;
+    height: 714.15px;
+    right: 160px;
+    top: calc(50% - 714.15px/2);
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+
+/* <---- CSS MOBILE ----> */
+@media only screen and (width >=320px) and (width <=430px) {
+    .Home {
+        height: 1000px;
+    }
+
+    .ContainerTextHome {
+        gap: 10.95px;
+
+        width: 370px;
+        height: 326px;
+        left: calc(50% - 370px/2);
+        top: 579px;
+
+        & .TextsHome {
+            gap: 14.6px;
+
+            width: 370px;
+            height: 275px;
+
+            & h1 {
+                width: 370px;
+
+                font-size: 32px;
+                line-height: 36px;
+            }
+
+            & h2 {
+                width: 360px;
+                height: auto;
+
+                font-size: 16px;
+                line-height: 20px;
+
+                & span {
+                    font-weight: 600;
+                }
+            }
+        }
+
+        & .ButtonLearnMore {
+            padding: 7px 72px;
+            gap: 7.3px;
+
+            width: 240px;
+            height: 40.6px;
+
+            border-radius: 12px;
+
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+    }
+
+    .ImageIlustrationMao {
+        height: 381.29px;
+        left: calc(50% - 370px/2);
+        top: 100px;
+    }
+}
+
+/* <---- CSS TABLET ----> */
+@media only screen and (width >=768px) and (width <=834px) {
+    .Home {
+        height: 1400px;
+    }
+
+    .ContainerTextHome {
+        gap: 15px;
+
+        width: 426px;
+        height: 440px;
+        left: 90px;
+        top: 850px;
+
+        & .TextsHome {
+            gap: 20px;
+
+            width: 426px;
+            height: 372px;
+
+            & h1 {
+                width: 426px;
+
+                font-size: 40px;
+                line-height: 49px;
+            }
+
+            & h2 {
+                width: 430px;
+                height: auto;
+
+                font-size: 20px;
+                line-height: 22px;
+
+                & span {
+                    font-weight: 600;
+                }
+            }
+
+            & .ButtonLearnMore {
+                padding: 8px 80px;
+                gap: 10px;
+
+                width: 274px;
+                height: 46px;
+
+                border-radius: 10px;
+
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .ImageIlustrationMao {
+        height: 597.71px;
+        left: calc(50% - 630.3px/2);
+        top: 160px;
+    }
+}
+
+/* <---- CSS NOTEBOOK ----> */
+@media only screen and (width >=1024px) and (width <=1440px) {
+    .Home {
+        height: 800px;
+    }
+
+    .ContainerTextHome {
+        gap: 15px;
+
+        width: 426px;
+        height: 415px;
+        left: 230px;
+        top: 200px;
+
+        & .TextsHome {
+            gap: 20px;
+
+            width: 426px;
+            height: 353px;
+
+            & h1 {
+                width: 426px;
+                height: auto;
+
+                font-size: 40px;
+                line-height: 42px;
+            }
+
+            & h2 {
+                width: 420px;
+                height: auto;
+
+                font-size: 20px;
+                line-height: 24px
+            }
+
+            & span {
+                font-weight: 600;
+            }
+        }
+
+        & .ButtonLearnMore {
+            padding: 8px 80px;
+            gap: 10px;
+
+            width: 274px;
+            height: 46px;
+
+            border-radius: 10px;
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .ImageIlustrationMao {
+        height: 640.99px;
+        right: 50px;
+        top: calc(50% - 640.99px/2);
+    }
+}

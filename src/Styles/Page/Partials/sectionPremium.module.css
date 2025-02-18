@@ -1,0 +1,728 @@
+/* <----- PREMIUM -----> */
+
+.Premium {
+    position: relative;
+    width: 100%;
+    height: 1554px;
+
+    background: var(--white);
+
+    overflow: hidden;
+
+    & svg {
+        position: absolute;
+        left: calc(50% - 290px/2);
+        top: 350px;
+    }
+
+    & .BackgroundPremium {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 1833.49px;
+        height: 1551.34px;
+        left: calc(50% - 1833.49px/2 + 200px);
+        top: calc(50% - 1551.34px/2 - 100px);
+
+        opacity: 0.5;
+
+        z-index: 0;
+    }
+
+    & p {
+        position: absolute;
+        width: 1176px;
+        height: 59px;
+        left: calc(50% - 1176px/2);
+        top: 1375px;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 39px;
+        align-items: center;
+        text-align: center;
+
+        color: var(--gray);
+
+        & span {
+            font-weight: 600;
+        }
+    }
+}
+
+.ContainerTextPremium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 1442px;
+    height: 235px;
+    left: calc(50% - 1442px/2);
+    top: 80px;
+
+    & h1 {
+        width: 1440px;
+        height: auto;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 74px;
+
+        text-align: center;
+
+        color: var(--blueDark);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    & h2 {
+        width: 1400px;
+        height: auto;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 39px;
+
+        align-items: center;
+        text-align: center;
+
+        color: var(--gray);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    & h1 span {
+        font-weight: 700;
+    }
+
+    & h2 span {
+        font-weight: 600;
+    }
+}
+
+/* <----- CONTAINER PREMIUM - PLANOS -----> */
+
+.ContainerPremiumPlans {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+
+    position: absolute;
+    width: 1157.47px;
+    height: 800px;
+    left: calc(50% - 1157.47px/2);
+    top: 480px;
+
+    & img {
+        width: 378.47px;
+        height: 800px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    & .ContainerPlanos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+
+        width: 699px;
+        height: 553px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        & h1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 25px;
+            gap: 10px;
+
+            width: 183px;
+            height: 40px;
+
+            background: rgba(6, 44, 128, 0.25);
+            border-radius: 30px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+
+            color: var(--blue);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+        }
+
+        & .Planos {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 80px;
+
+            width: 699px;
+            height: 493px;
+
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+
+            & .Bronze,
+            .Prata,
+            .Diamante {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 5px;
+                gap: 30px;
+
+                width: 699px;
+                height: 111px;
+
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+
+                & img {
+                    width: 63px;
+                    height: 63px;
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+
+                & .InfoPlans {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 10px;
+
+                    width: 595px;
+                    height: 101px;
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+
+                    & h2 {
+                        width: 595px;
+                        height: 31px;
+
+                        font-family: var(--font-poppins);
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 44px;
+                        line-height: 31px;
+                        align-items: center;
+
+                        color: var(--blueDark);
+
+                        flex: none;
+                        order: 0;
+                        align-self: stretch;
+                        flex-grow: 0;
+
+                        & span {
+                            font-weight: 600;
+                        }
+                    }
+
+                    & h3 {
+                        width: 595px;
+                        height: 60px;
+
+                        font-family: var(--font-poppins);
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 21px;
+                        align-items: center;
+
+                        color: var(--gray);
+
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+
+                        & span {
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+
+/* <---- CSS MOBILE ----> */
+@media only screen and (width >=320px) and (width <=430px) {
+    .Premium {
+        height: 2650px;
+
+        & svg {
+            left: calc(50% - 290px/2);
+            top: 665px;
+        }
+
+        & .BackgroundPremium {
+            width: 1833.49px;
+            height: 1551.34px;
+            left: calc(50% - 1833.49px/2 + 419.84px);
+            top: calc(50% - 1551.34px/2 - 265.33px);
+        }
+
+        & p {
+            width: 370px;
+            height: 160px;
+            left: calc(50% - 370px/2);
+            top: 2400px;
+
+            font-size: 28px;
+            line-height: 35px;
+        }
+    }
+
+    .ContainerTextPremium {
+        gap: 17px;
+
+        width: 370px;
+        height: 550px;
+        left: calc(50% - 370px/2);
+        top: 60px;
+
+        & h1 {
+            width: 370px;
+
+            font-size: 48px;
+            line-height: 50px;
+        }
+
+        & h2 {
+            width: 370px;
+
+            font-size: 28px;
+            line-height: 34px;
+        }
+    }
+
+    /* <----- CONTAINER PREMIUM - PLANOS -----> */
+
+    .ContainerPremiumPlans {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 160px;
+
+        width: 370px;
+        height: 1650px;
+        left: calc(50% - 370px/2);
+        top: 735px;
+
+        & img {
+            width: 291.42px;
+            height: 616px;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+
+        & .ContainerPlanos {
+            gap: 20px;
+
+            width: 370px;
+            height: 846px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & h1 {
+                padding: 8px 25px;
+                gap: 10px;
+
+                width: 183px;
+                height: 40px;
+
+                border-radius: 30px;
+
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            & .Planos {
+                gap: 40px;
+
+                width: 370px;
+                height: 845px;
+
+                & .Bronze,
+                .Prata,
+                .Diamante {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 5px 0px;
+                    gap: 25px;
+
+                    width: 370px;
+                    height: 255px;
+
+                    & img {
+                        width: 63px;
+                        height: 63px;
+                    }
+
+                    & .InfoPlans {
+                        align-items: flex-start;
+                        gap: 16px;
+
+                        width: 370px;
+                        height: 165px;
+
+                        & h2 {
+                            width: 370px;
+                            height: 25px;
+
+                            font-size: 36px;
+                            line-height: 49px;
+                        }
+
+                        & h3 {
+                            width: 370px;
+                            height: 114px;
+
+                            font-size: 20px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* <---- CSS TABLET ----> */
+@media only screen and (width >=768px) and (width <=834px) {
+    .Premium {
+        height: 1808px;
+
+        & svg {
+            left: calc(50% - 290px/2);
+            top: 415px;
+        }
+
+        & .BackgroundPremium {
+            width: 1375.12px;
+            height: 1163.5px;
+            left: calc(50% - 1375.12px/2 + 313.13px);
+            top: calc(50% - 1163.5px/2 - 436.25px);
+        }
+
+        & p {
+            width: 500px;
+            height: 73px;
+            left: calc(50% - 500px/2);
+            top: 1630px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    .ContainerTextPremium {
+        gap: 10px;
+
+        width: 580px;
+        height: 270px;
+        left: calc(50% - 580px/2);
+        top: 100px;
+
+        & h1 {
+            width: 580px;
+
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        & h2 {
+            width: 580px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    /* <----- CONTAINER PREMIUM - PLANOS -----> */
+
+    .ContainerPremiumPlans {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 30px;
+
+        position: absolute;
+        width: 620px;
+        height: 1044px;
+        left: calc(50% - 620px/2);
+        top: 525px;
+
+        & img {
+            width: 283.85px;
+            height: 600px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        & .ContainerPlanos {
+            gap: 15px;
+
+            width: 620px;
+            height: 414px;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+            & h1 {
+                padding: 6px 18.75px;
+                gap: 7.5px;
+
+                width: 180px;
+                height: 40px;
+
+                background: rgba(6, 44, 128, 0.25);
+                border-radius: 22.5px;
+
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            & .Planos {
+                gap: 40px;
+
+                width: 620px;
+                height: 369px;
+
+                & .Bronze,
+                .Prata,
+                .Diamante {
+                    gap: 22.5px;
+
+                    width: 620px;
+                    height: 90px;
+
+                    & img {
+                        width: 47.25px;
+                        height: 47.25px;
+                    }
+
+                    & .InfoPlans {
+                        gap: 12px;
+
+                        width: 530px;
+                        height: 85px;
+
+                        & h2 {
+                            width: 530px;
+                            height: 22px;
+
+                            font-size: 32px;
+                            line-height: 37px;
+                        }
+
+                        & h3 {
+                            width: 500px;
+                            height: 52px;
+
+                            font-size: 16px;
+                            line-height: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* <---- CSS NOTEBOOK ----> */
+@media only screen and (width >=1024px) and (width <=1440px) {
+    .Premium {
+        height: 1208px;
+
+        & svg {
+            left: calc(50% - 290px/2);
+            top: 290px;
+        }
+
+        & .BackgroundPremium {
+            width: 1375.12px;
+            height: 1163.5px;
+            left: calc(50% - 1375.12px/2 + 627.63px);
+            top: calc(50% - 1163.5px/2 - 429.5px);
+        }
+
+        & p {
+            width: 811px;
+            height: 43px;
+            left: calc(50% - 811px/2);
+            top: 1050px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    .ContainerTextPremium {
+        gap: 10px;
+
+        width: 890px;
+        height: 180px;
+        left: calc(50% - 890px/2);
+        top: 60px;
+
+        & h1 {
+            width: 890px;
+
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        & h2 {
+            width: 882px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    /* <----- CONTAINER PREMIUM - PLANOS -----> */
+
+    .ContainerPremiumPlans {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+
+        position: absolute;
+        width: 848.1px;
+        height: 600px;
+        left: calc(50% - 848.1px/2);
+        top: 375px;
+
+        & img {
+            width: 283.85px;
+            height: 600px;
+        }
+
+        & .ContainerPlanos {
+            gap: 15px;
+
+            width: 524.25px;
+            height: 414px;
+
+            & h1 {
+                padding: 6px 18.75px;
+                gap: 7.5px;
+
+                width: 137.5px;
+                height: 30px;
+
+                border-radius: 22.5px;
+
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+            & .Planos {
+                gap: 50px;
+
+                width: 524.25px;
+                height: 360px;
+
+                & .Bronze,
+                .Prata,
+                .Diamante {
+                    padding: 3.75px;
+                    gap: 22.5px;
+
+                    width: 524.25px;
+                    height: 83px;
+
+                    & img {
+                        width: 47.25px;
+                        height: 47.25px;
+                    }
+
+                    & .InfoPlans {
+                        gap: 7.5px;
+
+                        width: 446.25px;
+                        height: 75.5px;
+
+                        & h2 {
+                            width: 446.25px;
+                            height: 22px;
+
+                            font-size: 32px;
+                            line-height: 37px;
+                        }
+
+                        & h3 {
+                            width: 446.25px;
+                            height: 46px;
+
+                            font-size: 16px;
+                            line-height: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

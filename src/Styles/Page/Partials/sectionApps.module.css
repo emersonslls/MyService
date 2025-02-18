@@ -1,0 +1,1111 @@
+/* <----- APLICATIVOS -----> */
+
+.Apps {
+    position: relative;
+    width: 100%;
+    height: 1910px;
+
+    background: var(--white);
+
+    overflow: hidden;
+
+    & svg {
+        position: absolute;
+        left: calc(50% - 290px/2);
+        top: 360px;
+    }
+}
+
+.ContainerTextApps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 1208px;
+    height: 235px;
+    left: calc(50% - 1208px/2);
+    top: 80px;
+
+    & h1 {
+        width: 1208px;
+        height: auto;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 74px;
+
+        text-align: center;
+
+        color: var(--blueDark);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    & h2 {
+        width: 1208px;
+        height: auto;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 39px;
+
+        text-align: center;
+
+        color: var(--gray);
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    & h1 span {
+        font-weight: 700;
+    }
+
+    & h2 span {
+        font-weight: 600;
+    }
+}
+
+/* <----- CONTAINER APPS -----> */
+
+.ConatinerMyServiceUser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 79px;
+
+    position: absolute;
+    width: 937.42px;
+    height: 616px;
+    left: calc(50% - 937.42px/2);
+    top: 468px;
+
+    & img {
+        width: 291.42px;
+        height: 616px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    & .InformationsAppUser {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+
+        width: 620px;
+        height: 403px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        & .TextsAppUser {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 15px;
+
+            width: 620px;
+            height: 350px;
+
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+
+            & h1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 25px;
+                gap: 1px;
+
+                width: 178px;
+                height: 40px;
+
+                background: rgba(6, 44, 128, 0.25);
+                border-radius: 30px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                font-family: var(--font-poppins);
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+
+                color: var(--blue);
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            & .OnAppUser {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 10px;
+
+                width: 620px;
+                height: 300px;
+
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 0;
+
+                & h2 {
+                    width: 620px;
+                    height: 152px;
+
+                    font-family: var(--font-poppins);
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 49px;
+                    align-items: center;
+
+                    color: var(--blueDark);
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+
+                    & span {
+                        font-weight: 600;
+                    }
+                }
+
+                & h3 {
+                    width: 494px;
+                    height: 128px;
+
+                    font-family: var(--font-poppins);
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 26px;
+
+                    color: var(--gray);
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+
+                    & span {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        & button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 33px;
+            gap: 9px;
+
+            width: 178px;
+            height: 38px;
+
+            background: var(--blue);
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+
+            color: var(--white);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & img {
+                width: 14px;
+                height: 14px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+        }
+    }
+}
+
+.ConatinerMyServiceWork {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 79px;
+
+    position: absolute;
+    width: 951.42px;
+    height: 616px;
+    left: calc(50% - 951.42px/2);
+    top: 1203px;
+
+    & img {
+        width: 291.42px;
+        height: 616px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    & .InformationsAppWork {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 22px;
+
+        width: 581px;
+        height: 378px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        & .TextsAppWork {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 0px;
+            gap: 20px;
+
+            width: 581px;
+            height: 330px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & h1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 25px;
+                gap: 1px;
+
+                width: 184px;
+                height: 40px;
+
+                background: rgba(6, 44, 128, 0.25);
+                border-radius: 30px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                font-family: var(--font-poppins);
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+
+                color: var(--blue);
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            & .OnAppWork {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+                padding: 0px;
+                gap: 20px;
+
+                width: 581px;
+                height: 270px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                & h2 {
+                    width: 581px;
+                    height: 132px;
+
+                    font-family: var(--font-poppins);
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 49px;
+
+                    text-align: right;
+                    color: var(--blueDark);
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+
+                    & span {
+                        font-weight: 600;
+                    }
+                }
+
+                & h3 {
+                    width: 550px;
+                    height: 118px;
+
+                    font-family: var(--font-poppins);
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 26px;
+
+                    text-align: right;
+                    color: var(--gray);
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+
+                    & span {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        & button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 33px;
+            gap: 9px;
+
+            width: 178px;
+            height: 38px;
+
+            background: var(--blue);
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+
+            color: var(--white);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & img {
+                width: 14px;
+                height: 14px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+        }
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+
+/* <---- CSS MOBILE ----> */
+@media only screen and (width >=320px) and (width <=430px) {
+    .Apps {
+        height: 3100px;
+
+        & svg {
+            left: calc(50% - 290px/2);
+            top: 580px;
+        }
+    }
+
+    .ContainerTextApps {
+        gap: 17px;
+
+        width: 370px;
+        height: 432px;
+        left: calc(50% - 370px/2);
+        top: 100px;
+
+        & h1 {
+            width: 340px;
+
+            font-size: 52px;
+            line-height: 50px;
+            word-break: break-word;
+        }
+
+        & h2 {
+            width: 370px;
+
+            font-size: 28px;
+            line-height: 34px;
+        }
+    }
+
+    /* <----- CONTAINER APPS -----> */
+
+    .ConatinerMyServiceUser {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        width: 370px;
+        height: 1150px;
+        left: calc(50% - 370px/2);
+        top: 648px;
+
+        & img {
+            width: 291.42px;
+            height: 616px;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+
+        & .InformationsAppUser {
+            padding: 0px;
+            gap: 0px;
+
+            width: 370px;
+            height: 420px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & .TextsAppUser {
+                gap: 20px;
+
+                width: 370px;
+                height: 385px;
+
+                & h1 {
+                    padding: 8px 25px;
+                    gap: 10px;
+
+                    width: 178px;
+                    height: 40px;
+
+                    border-radius: 30px;
+
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                & .OnAppUser {
+                    gap: 15px;
+
+                    width: 370px;
+                    height: 315px;
+
+                    & h2 {
+                        width: 360px;
+                        height: auto;
+
+                        font-size: 40px;
+                        line-height: 39px;
+
+                        flex-wrap: wrap;
+
+                        white-space: normal;
+                        overflow-wrap: break-word;
+
+                        & span {
+                            display: inline-block;
+                            word-spacing: -10px;
+                        }
+                    }
+
+                    & h3 {
+                        width: 370px;
+                        height: 100px;
+
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+            }
+
+            & button {
+                padding: 7.5px 24.75px;
+                gap: 8px;
+
+                width: 160px;
+                height: 33px;
+
+                border-radius: 8px;
+
+                font-size: 12px;
+                line-height: 18px;
+
+                & img {
+                    width: 10.5px;
+                    height: 10.5px;
+                }
+            }
+        }
+    }
+
+    .ConatinerMyServiceWork {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        width: 370px;
+        height: 1100px;
+        left: calc(50% - 370px/2);
+        top: 1900px;
+
+        & img {
+            width: 291.42px;
+            height: 616px;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+
+        & .InformationsAppWork {
+            padding: 0px;
+            gap: 20px;
+
+            width: 370px;
+            height: 405px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & .TextsAppWork {
+                gap: 20px;
+
+                width: 370px;
+                height: 350px;
+
+                & h1 {
+                    padding: 8px 25px;
+                    gap: 10px;
+
+                    width: 183px;
+                    height: 40px;
+
+                    border-radius: 30px;
+
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                & .OnAppWork {
+                    gap: 15px;
+
+                    width: 370px;
+                    height: 278px;
+
+                    & h2 {
+                        width: 360px;
+                        height: auto;
+
+                        font-size: 40px;
+                        line-height: 39px;
+                    }
+
+                    & h3 {
+                        width: 370px;
+                        height: 110px;
+
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+            }
+
+            & button {
+                padding: 7.5px 24.75px;
+                gap: 8px;
+
+                width: 160px;
+                height: 33px;
+
+                border-radius: 8px;
+
+                font-size: 12px;
+                line-height: 18px;
+
+                & img {
+                    width: 10.5px;
+                    height: 10.5px;
+                }
+            }
+        }
+    }
+}
+
+/* <---- CSS TABLET ----> */
+@media only screen and (width >=768px) and (width <=834px) {
+    .Apps {
+        height: 2300px;
+
+        & svg {
+            left: calc(50% - 290px/2);
+            top: 380px;
+        }
+    }
+
+    .ContainerTextApps {
+        gap: 12px;
+
+        width: 620px;
+        left: calc(50% - 620px/2);
+        top: 100px;
+
+        & h1 {
+            width: 620px;
+
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        & h2 {
+            width: 620px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    /* <----- CONTAINER APPS -----> */
+
+    .ConatinerMyServiceUser {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+
+        width: 465px;
+        height: 800px;
+        left: calc(50% - 465px/2);
+        top: 485px;
+
+        & img {
+            width: 218.57px;
+            height: 462px;
+        }
+
+        & .InformationsAppUser {
+            gap: 20px;
+
+            width: 465px;
+            height: 300px;
+
+            & .TextsAppUser {
+                gap: 12px;
+
+                width: 465px;
+                height: 248px;
+
+                & h1 {
+                    padding: 6px 18.75px;
+                    gap: 7.5px;
+
+                    width: 133.5px;
+                    height: 30px;
+
+                    border-radius: 22.5px;
+
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+
+                & .OnAppUser {
+                    gap: 17px;
+
+                    width: 465px;
+                    height: 212px;
+
+                    & h2 {
+                        width: 465px;
+                        height: 99px;
+
+                        font-size: 36px;
+                        line-height: 35px;
+                    }
+
+                    & h3 {
+                        width: 465px;
+                        height: 89px;
+
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+            }
+
+            & button {
+                padding: 7.5px 24.75px;
+                gap: 8px;
+
+                width: 160px;
+                height: 33px;
+
+                border-radius: 8px;
+
+                font-size: 12px;
+                line-height: 18px;
+
+                & img {
+                    width: 10.5px;
+                    height: 10.5px;
+                }
+            }
+        }
+    }
+
+    .ConatinerMyServiceWork {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+
+        width: 430px;
+        height: 800px;
+        left: calc(50% - 430px/2);
+        top: 1380px;
+
+        & img {
+            width: 218.57px;
+            height: 462px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        & .InformationsAppWork {
+            gap: 22px;
+
+            width: 435.75px;
+            height: 308.5px;
+
+            & .TextsAppWork {
+                gap: 12px;
+
+                width: 425.25px;
+                height: 248px;
+
+                & h1 {
+                    gap: 8px;
+
+                    width: 155px;
+                    height: 32px;
+
+                    border-radius: 22.5px;
+
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+
+                & .OnAppWork {
+                    gap: 18px;
+
+                    width: 435.75px;
+                    height: 220px;
+
+                    & h2 {
+                        width: 435.75px;
+                        height: 99px;
+
+                        font-size: 36px;
+                        line-height: 37px;
+                    }
+
+                    & h3 {
+                        width: 430px;
+                        height: 109px;
+
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                }
+            }
+
+            & button {
+                padding: 7.5px 24.75px;
+                gap: 8px;
+
+                width: 160px;
+                height: 33px;
+
+                border-radius: 8px;
+
+                font-size: 12px;
+                line-height: 18px;
+
+                & img {
+                    width: 10.5px;
+                    height: 10.5px;
+                }
+            }
+        }
+    }
+}
+
+/* <---- CSS NOTEBOOK ----> */
+@media only screen and (width >=1024px) and (width <=1440px) {
+    .Apps {
+        height: 1500px;
+
+        & svg {
+            left: calc(50% - 290px/2);
+            top: 280px;
+        }
+    }
+
+    .ContainerTextApps {
+        gap: 10px;
+
+        width: 906px;
+        height: 180px;
+        left: calc(50% - 906px/2);
+        top: 60px;
+
+        & h1 {
+            width: 906px;
+
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        & h2 {
+            width: 906px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    /* <----- CONTAINER APPS -----> */
+
+    .ConatinerMyServiceUser {
+        gap: 59.25px;
+
+        width: 703.07px;
+        height: 462px;
+        left: calc(50% - 703.07px/2);
+        top: 365px;
+
+        & img {
+            width: 218.57px;
+            height: 462px;
+        }
+
+        & .InformationsAppUser {
+            gap: 20px;
+
+            width: 465px;
+            height: 300px;
+
+            & .TextsAppUser {
+                gap: 12px;
+
+                width: 465px;
+                height: 248px;
+
+                & h1 {
+                    padding: 6px 18.75px;
+                    gap: 7.5px;
+
+                    width: 133.5px;
+                    height: 30px;
+
+                    border-radius: 22.5px;
+
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+
+                & .OnAppUser {
+                    gap: 17px;
+
+                    width: 465px;
+                    height: 212px;
+
+                    & h2 {
+                        width: 465px;
+                        height: 99px;
+
+                        font-size: 36px;
+                        line-height: 35px;
+                    }
+
+                    & h3 {
+                        width: 425px;
+                        height: 89px;
+
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+            }
+
+            & button {
+                padding: 7.5px 24.75px;
+                gap: 8px;
+
+                width: 160px;
+                height: 33px;
+
+                border-radius: 8px;
+
+                font-size: 12px;
+                line-height: 18px;
+
+                & img {
+                    width: 10.5px;
+                    height: 10.5px;
+                }
+            }
+        }
+    }
+
+    .ConatinerMyServiceWork {
+        gap: 59.25px;
+
+        width: 713.57px;
+        height: 462px;
+        left: calc(50% - 713.57px/2);
+        top: 915px;
+
+        & img {
+            width: 218.57px;
+            height: 462px;
+        }
+
+        & .InformationsAppWork {
+            gap: 22px;
+
+            width: 435.75px;
+            height: 308.5px;
+
+            & .TextsAppWork {
+                gap: 12px;
+
+                width: 425.25px;
+                height: 248px;
+
+                & h1 {
+                    gap: 8px;
+
+                    width: 155px;
+                    height: 32px;
+
+                    border-radius: 22.5px;
+
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+
+                & .OnAppWork {
+                    gap: 18px;
+
+                    width: 435.75px;
+                    height: 220px;
+
+                    & h2 {
+                        width: 435.75px;
+                        height: 99px;
+
+                        font-size: 36px;
+                        line-height: 37px;
+                    }
+
+                    & h3 {
+                        width: 430px;
+                        height: 109px;
+
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                }
+            }
+
+            & button {
+                padding: 7.5px 24.75px;
+                gap: 8px;
+
+                width: 160px;
+                height: 33px;
+
+                border-radius: 8px;
+
+                font-size: 12px;
+                line-height: 18px;
+
+                & img {
+                    width: 10.5px;
+                    height: 10.5px;
+                }
+            }
+        }
+    }
+}

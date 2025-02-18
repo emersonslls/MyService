@@ -1,0 +1,372 @@
+/* <----- REDES SOCIAIS -----> */
+
+.Redes {
+    position: relative;
+    width: 100%;
+    height: 831px;
+
+    background: var(--white);
+    overflow: hidden;
+}
+
+.ContainerRedes {
+    position: relative;
+    width: 1440px;
+    height: 600px;
+    left: calc(50% - 1440px/2);
+    top: calc(50% - 600px/2);
+
+    background: var(--blue);
+    border-radius: 60px;
+
+    & .InformationRedes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 15px;
+
+        position: absolute;
+        width: 605px;
+        height: 340px;
+        left: 100px;
+        top: calc(50% - 321px/2);
+
+        & .TextRedes {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 20px;
+
+            width: 605px;
+            height: 280px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & h1 {
+                width: 605px;
+                height: 181px;
+
+                font-family: var(--font-poppins);
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 49px;
+                align-items: center;
+
+                color: var(--white);
+
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+
+                & span {
+                    font-weight: 500;
+                }
+            }
+
+            & h2 {
+                width: 485px;
+                height: 65px;
+
+                font-family: var(--font-poppins);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 27px;
+
+                align-items: center;
+
+                color: var(--graylight);
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                & span {
+                    font-weight: 500;
+                }
+            }
+        }
+
+        & .IconsRedes {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 16.67px;
+
+            width: 100px;
+            height: 40px;
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+            & img {
+                width: auto;
+                height: 40px;
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                cursor: pointer;
+            }
+        }
+    }
+
+    & .ProfileInsta {
+        position: absolute;
+        width: 229.56px;
+        height: 485.24px;
+        left: 860px;
+        top: calc(50% - 485.24px/2);
+    }
+
+    & .ProfileX {
+        position: absolute;
+        width: 229.56px;
+        height: 485.24px;
+        left: 1020px;
+        top: 99px;
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+
+/* <---- CSS MOBILE ----> */
+@media only screen and (width >=320px) and (width <=430px) {
+    .Redes {
+        height: 1060px;
+    }
+
+    .ContainerRedes {
+        width: 370px;
+        height: 930px;
+        left: calc(50% - 370px/2);
+        top: calc(50% - 930px/2);
+
+        border-radius: 30px;
+
+        & .InformationRedes {
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            width: 320px;
+            height: 385px;
+            left: calc(50% - 320px/2);
+            top: 50px;
+
+            & .TextRedes {
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                width: 320px;
+                height: 340px;
+
+                & h1 {
+                    width: 320px;
+                    height: 204px;
+
+                    font-size: 34px;
+                    line-height: 36px;
+
+                    align-items: center;
+                    text-align: center;
+                }
+
+                & h2 {
+                    width: 320px;
+                    height: 95px;
+
+                    font-size: 20px;
+                    line-height: 27px;
+
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+
+            & .IconsRedes {
+                align-items: center;
+                padding: 0px;
+                gap: 12px;
+
+                width: 74px;
+                height: 30px;
+
+                & img {
+                    height: 30px;
+                }
+            }
+        }
+
+        & .ProfileInsta {
+            width: 177.53px;
+            height: 375.25px;
+            left: 35px;
+            top: 480px;
+        }
+
+        & .ProfileX {
+            width: 177.53px;
+            height: 375.25px;
+            left: 150px;
+            top: 520px;
+        }
+    }
+}
+
+/* <---- CSS TABLET ----> */
+@media only screen and (width >=768px) and (width <=834px) {
+    .Redes {
+        height: 1100px;
+    }
+
+    .ContainerRedes {
+        width: 650px;
+        height: 918px;
+        left: calc(50% - 650px/2);
+        top: calc(50% - 918px/2);
+
+        border-radius: 40px;
+
+        & .InformationRedes {
+            gap: 12px;
+
+            width: 411.74px;
+            height: 216.04px;
+            left: calc(50% - 411.74px/2);
+            top: 80px;
+
+            & .TextRedes {
+                gap: 12px;
+
+                width: 411.74px;
+                height: 193px;
+
+                & h1 {
+                    width: 411.74px;
+                    height: 122px;
+
+                    font-size: 32px;
+                    line-height: 33px;
+                }
+
+                & h2 {
+                    width: 330.07px;
+                    height: 43px;
+
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+
+            & .IconsRedes {
+                gap: 12px;
+
+                width: 70px;
+                height: 27.22px;
+
+                & img {
+                    height: 27.22px;
+                }
+            }
+        }
+
+        & .ProfileInsta {
+            width: 216.59px;
+            height: 457.82px;
+            left: 140px;
+            top: 380px;
+        }
+
+        & .ProfileX {
+            width: 216.59px;
+            height: 457.82px;
+            left: 290px;
+            top: 420px;
+        }
+    }
+}
+
+/* <---- CSS NOTEBOOK ----> */
+@media only screen and (width >=1024px) and (width <=1440px) {
+    .Redes {
+        height: 600px;
+    }
+
+    .ContainerRedes {
+        width: 980px;
+        height: 408.33px;
+        left: calc(50% - 980px/2);
+        top: calc(50% - 408.33px/2);
+
+        border-radius: 40px;
+
+        & .InformationRedes {
+            gap: 12px;
+
+            width: 411.74px;
+            height: 232px;
+            left: 80px;
+            top: calc(50% - 216.04px/2);
+
+            & .TextRedes {
+                gap: 12px;
+
+                width: 411.74px;
+                height: 193px;
+
+                & h1 {
+                    width: 411.74px;
+                    height: 122px;
+
+                    font-size: 32px;
+                    line-height: 33px;
+                }
+
+                & h2 {
+                    width: 330.07px;
+                    height: 43px;
+
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+
+            & .IconsRedes {
+                gap: 12px;
+
+                width: 70px;
+                height: 27.22px;
+
+                & img {
+                    height: 27.22px;
+                }
+            }
+        }
+
+        & .ProfileInsta {
+            width: 156.23px;
+            height: 330.23px;
+            left: 600px;
+            top: calc(50% - 330.23px/2);
+        }
+
+        & .ProfileX {
+            width: 156.23px;
+            height: 330.23px;
+            left: 700px;
+            top: 70px;
+        }
+    }
+}

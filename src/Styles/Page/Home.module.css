@@ -1,0 +1,8 @@
+@import url(./Partials/sectionHome.module.css);
+@import url(./Partials/sectionApps.module.css);
+@import url(./Partials/sectionPremium.module.css);
+@import url(./Partials/sectionSobre.module.css);
+@import url(./Partials/sectionRedes.module.css);
+@import url(./Partials/sectionEquipe.module.css);
+
+@import url(../Global/Global.css);

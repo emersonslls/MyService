@@ -1,0 +1,512 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: 372px;
+
+    background: var(--blueDark);
+    overflow: hidden;
+
+    & .Background {
+        position: absolute;
+        width: 2032.71px;
+        height: 946.17px;
+        left: calc(50% - 2032.71px/2 + 0.35px);
+        top: -365px;
+    }
+}
+
+.Logo {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: auto;
+    height: 45px;
+    left: calc(50% - 280px/2);
+    top: 80px;
+}
+
+.NavFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 35px;
+
+    position: absolute;
+    width: 684px;
+    height: 17px;
+    left: calc(50% - 684px/2);
+    top: 180px;
+
+    & li {
+        width: auto;
+        height: 17px;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        align-items: center;
+
+        color: var(--white);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
+
+.Rodape {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 288px;
+
+    background: var(--blue);
+
+    & .Informations {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 500px;
+
+        position: absolute;
+        width: 1230px;
+        height: 50px;
+        left: calc(50% - 1230px/2);
+        top: calc(50% - 50px/2);
+
+        & .Empresa {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 30px;
+
+            width: 400px;
+            height: 50px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & img {
+                width: 40px;
+                height: 40px;
+            }
+
+            & .Mail {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 13.2px;
+
+                width: 347.2px;
+                height: 30px;
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                & img {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                & h1 {
+                    width: 304px;
+                    height: 17px;
+
+                    font-family: var(--font-poppins);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 12px;
+                    align-items: center;
+
+                    color: var(--white);
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                }
+            }
+        }
+
+        & .Dev img {
+            width: auto;
+            height: 20px;
+        }
+    }
+}
+
+.Direitos {
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    bottom: 0;
+
+    background: var(--white);
+
+    & h1 {
+        position: absolute;
+        width: 350px;
+        height: 18px;
+        left: calc(50% - 348px/2);
+        top: calc(50% - 18px/2);
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 2px;
+
+        color: var(--blueDark);
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+
+/* <---- CSS MOBILE ----> */
+@media only screen and (width >=320px) and (width <=430px) {
+    footer {
+        height: 660px;
+
+        & .Background {
+            width: auto;
+            height: 1434.17px;
+            left: calc(50% - 1001.71px/2 - 200px);
+            top: -616px;
+        }
+    }
+
+    .Logo {
+        height: 30px;
+        left: calc(50% - 186.66px/2);
+        top: 60px;
+    }
+
+    .NavFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 45px;
+
+        position: absolute;
+        width: 276px;
+        height: 203px;
+        left: calc(50% - 276px/2);
+        top: 140px;
+
+        background-color: transparent;
+        box-shadow: none;
+
+        & li {
+            height: 17px;
+
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+
+    .Rodape {
+        height: 200px;
+        top: 440px;
+
+        & .Informations {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+
+            width: 360px;
+            height: 141px;
+            left: calc(50% - 360px/2);
+            top: calc(50% - 141px/2);
+
+            & .Empresa {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 20px;
+
+                width: 282.31px;
+                height: 83.31px;
+
+                & img {
+                    width: 35px;
+                    height: 35px;
+                }
+
+                & .Mail {
+                    gap: 10px;
+
+                    width: 282.31px;
+                    height: 30px;
+
+                    & img {
+                        width: 25px;
+                        height: 25px;
+                    }
+
+                    & h1 {
+                        width: 304px;
+                        height: 17px;
+
+                        font-size: 20px;
+                        line-height: 12px;
+                    }
+                }
+            }
+
+            & .Dev img {
+                width: auto;
+                height: 20px;
+            }
+        }
+    }
+
+    .Direitos {
+        height: 24px;
+
+        & h1 {
+            width: 350px;
+            height: 18px;
+            left: calc(50% - 348px/2);
+            top: calc(50% - 18px/2);
+
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+/* <---- CSS TABLET ----> */
+@media only screen and (width >=768px) and (width <=834px) {
+    footer {
+        height: 660px;
+
+        & .Background {
+            width: auto;
+            height: 1434.17px;
+            left: calc(50% - 1001.71px/2);
+            top: -416px;
+        }
+    }
+
+    .Logo {
+        height: 30px;
+        left: calc(50% - 186.66px/2);
+        top: 60px;
+    }
+
+    .NavFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 45px;
+
+        position: absolute;
+        width: 276px;
+        height: 203px;
+        left: calc(50% - 276px/2);
+        top: 140px;
+
+        background-color: transparent;
+        box-shadow: none;
+
+        & li {
+            height: 17px;
+
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+
+    .Rodape {
+        height: 200px;
+        top: 440px;
+
+        & .Informations {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+
+            width: 360px;
+            height: 141px;
+            left: calc(50% - 360px/2);
+            top: calc(50% - 141px/2);
+
+            & .Empresa {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 20px;
+
+                width: 282.31px;
+                height: 83.31px;
+
+                & img {
+                    width: 35px;
+                    height: 35px;
+                }
+
+                & .Mail {
+                    gap: 10px;
+
+                    width: 282.31px;
+                    height: 30px;
+
+                    & img {
+                        width: 25px;
+                        height: 25px;
+                    }
+
+                    & h1 {
+                        width: 304px;
+                        height: 17px;
+
+                        font-size: 20px;
+                        line-height: 12px;
+                    }
+                }
+            }
+
+            & .Dev img {
+                width: auto;
+                height: 20px;
+            }
+        }
+    }
+
+    .Direitos {
+        height: 24px;
+
+        & h1 {
+            width: 350px;
+            height: 18px;
+            left: calc(50% - 348px/2);
+            top: calc(50% - 18px/2);
+
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+/* <---- CSS NOTEBOOK ----> */
+@media only screen and (width >=1024px) and (width <=1440px) {
+    footer {
+        height: 362px;
+
+        & .Background {
+            width: 2032.71px;
+            height: 946.17px;
+            left: calc(50% - 2032.71px/2 + 0.35px);
+            top: -365px;
+        }
+    }
+
+    .Logo {
+        height: 45px;
+        left: calc(50% - 280px/2);
+        top: 80px;
+    }
+
+    .NavFooter {
+        gap: 35px;
+
+        width: 684px;
+        height: 17px;
+        left: calc(50% - 684px/2);
+        top: 180px;
+
+        & li {
+            height: 17px;
+
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+
+    .Rodape {
+        height: 50px;
+        top: 288px;
+
+        & .Informations {
+            gap: 400px;
+
+            width: 1125px;
+            height: 40px;
+            left: calc(50% - 1125px/2);
+            top: calc(50% - 40px/2);
+
+            & .Empresa {
+                gap: 25px;
+
+                width: 400px;
+                height: 50px;
+
+                & img {
+                    width: 35px;
+                    height: 35px;
+                }
+
+                & .Mail {
+                    gap: 10px;
+
+                    width: 347.2px;
+                    height: 30px;
+
+                    & img {
+                        width: 25px;
+                        height: 25px;
+                    }
+
+                    & h1 {
+                        width: 304px;
+                        height: 17px;
+
+                        font-size: 20px;
+                        line-height: 12px;
+                    }
+                }
+            }
+
+            & .Dev img {
+                width: auto;
+                height: 20px;
+            }
+        }
+    }
+
+    .Direitos {
+        height: 24px;
+
+        & h1 {
+            width: 350px;
+            height: 18px;
+            left: calc(50% - 348px/2);
+            top: calc(50% - 18px/2);
+
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}

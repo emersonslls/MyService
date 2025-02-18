@@ -1,0 +1,704 @@
+/* <----- QUEM SOMOS -----> */
+
+.Sobre {
+    position: relative;
+    width: 100%;
+    height: 1353px;
+
+    background: var(--white);
+
+    overflow: hidden;
+}
+
+.ContainerTextSobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 1286px;
+    height: 390px;
+    left: calc(50% - 1286px/2);
+    top: 80px;
+
+    .TextSobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+
+        width: 1286px;
+        height: 300px;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+
+        & h1 {
+            width: 1110px;
+            height: auto;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 72px;
+
+            align-items: center;
+            text-align: center;
+
+            color: var(--blueDark);
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            & span {
+                font-weight: 600;
+            }
+        }
+
+        & h2 {
+            width: 1286px;
+            height: auto;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 35px;
+            /* or 162% */
+            align-items: center;
+            text-align: center;
+
+            color: var(--gray);
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+    }
+
+    & button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 100px;
+        gap: 10px;
+
+        width: 424px;
+        height: 56px;
+
+        background: var(--blue);
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+
+        color: var(--white);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    & button:hover {
+        transform: scale(1.05);
+    }
+}
+
+/* <---- CONTAINER MOTIVOS ----> */
+
+.ContainerMotivos {
+    position: relative;
+    width: 100%;
+    height: 836px;
+    left: 0px;
+    top: 517px;
+
+    background: var(--blueLight);
+}
+
+.ContainerTextMotivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+
+    position: absolute;
+    width: 1286px;
+    height: 273px;
+    left: calc(50% - 1286px/2);
+    top: 61px;
+
+    & h1 {
+        width: 1110px;
+        height: 119px;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 74px;
+        align-items: center;
+        text-align: center;
+
+        color: var(--blueDark);
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        & span {
+            font-weight: 700;
+        }
+    }
+
+    & h2 {
+        width: 1286px;
+        height: 134px;
+
+        font-family: var(--font-poppins);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+        align-items: center;
+        text-align: center;
+
+        color: var(--gray);
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        & span {
+            font-weight: 600;
+        }
+    }
+}
+
+.ContainerTopicsMotivos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    width: 1353px;
+    height: 391.71px;
+    left: calc(50% - 1353px/2);
+    top: 383px;
+
+    .PerfisDetalhados,
+    .VisualizacaoDeImagens,
+    .AvaliacoesDeClientes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 40px 100px 100px 20px;
+        gap: 20px;
+
+        width: 411px;
+        height: 391.71px;
+
+        background: var(--white);
+        border-radius: 20px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        transition: background-color 0.3s ease, transform 0.3s ease;
+
+        & img {
+            width: 70px;
+            height: 63.71px;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        & h1 {
+            width: 291px;
+            height: 77px;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 49px;
+            align-items: center;
+
+            color: var(--blueDark);
+
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+
+            & span {
+                font-weight: 600;
+            }
+        }
+
+        & h2 {
+            width: 347px;
+            height: 71px;
+
+            font-family: var(--font-poppins);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            align-items: center;
+
+            color: var(--gray);
+
+            flex: none;
+            order: 2;
+            flex-grow: 0;
+        }
+    }
+
+    .PerfisDetalhados:hover,
+    .VisualizacaoDeImagens:hover,
+    .AvaliacoesDeClientes:hover {
+        transform: scale(1.05);
+        box-shadow: 6px 6px 8px rgba(10, 9, 8, 0.1);
+    }
+}
+
+/* <---- CSS REPOSNSIVO ----> */
+
+/* <---- CSS MOBILE ----> */
+@media only screen and (width >=320px) and (width <=430px) {
+    .Sobre {
+        height: 3160px;
+    }
+
+    .ContainerTextSobre {
+        gap: 30px;
+
+        width: 370px;
+        height: 810px;
+        left: calc(50% - 370px/2);
+        top: 60px;
+
+        .TextSobre {
+            gap: 20px;
+
+            width: 370px;
+            height: 725px;
+
+            & h1 {
+                width: 370px;
+
+                font-size: 52px;
+                line-height: 50px;
+            }
+
+            & h2 {
+                width: 370px;
+
+                font-size: 24px;
+                line-height: 35px;
+            }
+        }
+
+        & button {
+            padding: 10px 50px;
+            gap: 10px;
+
+            width: 370px;
+            height: 56px;
+
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        & button:hover {
+            transform: scale(1.02);
+        }
+    }
+
+    /* <---- CONTAINER MOTIVOS ----> */
+
+    .ContainerMotivos {
+        height: 2180px;
+        top: 980px;
+    }
+
+    .ContainerTextMotivos {
+        gap: 25px;
+
+        width: 370px;
+        height: 665px;
+        left: calc(50% - 370px/2);
+        top: 60px;
+
+        & h1 {
+            width: 370px;
+            height: 186px;
+
+            font-size: 52px;
+            line-height: 50px;
+        }
+
+        & h2 {
+            width: 370px;
+            height: 437px;
+
+            font-size: 24px;
+            line-height: 35px;
+        }
+    }
+
+    .ContainerTopicsMotivos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+
+        width: 370px;
+        height: 1228px;
+        left: calc(50% - 370px/2);
+        top: 830px;
+
+        .PerfisDetalhados,
+        .VisualizacaoDeImagens,
+        .AvaliacoesDeClientes {
+            padding: 40px 100px 100px 20px;
+            gap: 20px;
+
+            width: 370px;
+            height: 390px;
+
+            border-radius: 20px;
+
+            & img {
+                width: 54.94px;
+                height: 50px;
+            }
+
+            & h1 {
+                width: 250px;
+                height: 61px;
+
+                font-size: 36px;
+                line-height: 36px;
+            }
+
+            & h2 {
+                width: 300px;
+                height: 77px;
+
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+
+        .PerfisDetalhados:hover,
+        .VisualizacaoDeImagens:hover,
+        .AvaliacoesDeClientes:hover {
+            transform: scale(1.02);
+            box-shadow: 8px 8px 10px rgba(10, 9, 8, 0.1);
+        }
+    }
+}
+
+/* <---- CSS TABLET ----> */
+@media only screen and (width >=768px) and (width <=834px) {
+    .Sobre {
+        height: 2450px;
+    }
+
+    .ContainerTextSobre {
+        gap: 25px;
+
+        width: 580px;
+        height: 465px;
+        left: calc(50% - 580px/2);
+        top: 100px;
+
+        .TextSobre {
+            gap: 20px;
+
+            width: 580px;
+            height: 390px;
+
+            & h1 {
+                width: 580px;
+
+                font-size: 48px;
+                line-height: 56px;
+            }
+
+            & h2 {
+                width: 580px;
+
+                font-size: 20px;
+                line-height: 29px;
+            }
+        }
+
+        & button {
+            padding: 10px 80px;
+            gap: 10px;
+
+            width: 347px;
+            height: 50px;
+
+            border-radius: 20px;
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        & button:hover {
+            transform: scale(1.00);
+        }
+    }
+
+    /* <---- CONTAINER MOTIVOS ----> */
+
+    .ContainerMotivos {
+        height: 1800px;
+        top: 650px;
+    }
+
+    .ContainerTextMotivos {
+        gap: 25px;
+
+        width: 620px;
+        height: 345px;
+        left: calc(50% - 620px/2);
+        top: 70px;
+
+        & h1 {
+            width: 580px;
+            height: 145px;
+
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        & h2 {
+            width: 620px;
+            height: 160px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    .ContainerTopicsMotivos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+
+        width: 580px;
+        height: 1215.13px;
+        left: calc(50% - 580px/2);
+        top: 480px;
+
+        .PerfisDetalhados,
+        .VisualizacaoDeImagens,
+        .AvaliacoesDeClientes {
+            padding: 40px 100px 100px 20px;
+            gap: 20px;
+
+            width: 411px;
+            height: 391.71px;
+
+            & img {
+                width: 70px;
+                height: 63.71px;
+            }
+
+            & h1 {
+                width: 291px;
+                height: 77px;
+
+                font-size: 40px;
+                line-height: 49px;
+            }
+
+            & h2 {
+                width: 347px;
+                height: 71px;
+
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+
+        .PerfisDetalhados:hover,
+        .VisualizacaoDeImagens:hover,
+        .AvaliacoesDeClientes:hover {
+            transform: scale(1.00);
+            box-shadow: 4px 4px 8px rgba(10, 9, 8, 0.1);
+        }
+    }
+}
+
+/* <---- CSS NOTEBOOK ----> */
+@media only screen and (width >=1024px) and (width <=1440px) {
+    .Sobre {
+        height: 1635px;
+    }
+
+    .ContainerTextSobre {
+        gap: 25px;
+
+        width: 980px;
+        height: 320px;
+        left: calc(50% - 980px/2);
+        top: 60px;
+
+        .TextSobre {
+            gap: 20px;
+
+            width: 980px;
+            height: 245px;
+
+            & h1 {
+                width: 980px;
+
+                font-size: 48px;
+                line-height: 56px;
+            }
+
+            & h2 {
+                width: 980px;
+
+                font-size: 20px;
+                line-height: 29px;
+            }
+        }
+
+        & button {
+            padding: 10px 80px;
+            gap: 10px;
+
+            width: 347px;
+            height: 50px;
+
+            border-radius: 20px;
+
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        & button:hover {
+            transform: scale(1.03);
+        }
+    }
+
+    /* <---- CONTAINER MOTIVOS ----> */
+
+    .ContainerMotivos {
+        height: 1200px;
+        top: 435px;
+    }
+
+    .ContainerTextMotivos {
+        gap: 25px;
+
+        width: 980px;
+        height: 225px;
+        left: calc(50% - 980px/2);
+        top: 61px;
+
+        & h1 {
+            width: 980px;
+            height: 89px;
+
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        & h2 {
+            width: 980px;
+            height: 102px;
+
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+
+    .ContainerTopicsMotivos {
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: flex-start;
+        padding: 0px;
+        gap: 20px 40px;
+
+        width: 882px;
+        height: 803.42px;
+        left: calc(50% - 882px/2);
+        top: 335px;
+
+        .PerfisDetalhados,
+        .VisualizacaoDeImagens,
+        .AvaliacoesDeClientes {
+            padding: 40px 100px 100px 20px;
+            gap: 20px;
+
+            width: 411px;
+            height: 391.71px;
+
+            & img {
+                width: 70px;
+                height: 63.71px;
+            }
+
+            & h1 {
+                width: 291px;
+                height: 77px;
+
+                font-size: 40px;
+                line-height: 49px;
+            }
+
+            & h2 {
+                width: 347px;
+                height: 71px;
+
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+
+        .PerfisDetalhados:hover,
+        .VisualizacaoDeImagens:hover,
+        .AvaliacoesDeClientes:hover {
+            transform: scale(1.03);
+            box-shadow: 6px 6px 8px rgba(10, 9, 8, 0.1);
+        }
+    }
+}
