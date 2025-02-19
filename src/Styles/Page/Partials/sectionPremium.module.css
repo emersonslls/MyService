@@ -232,7 +232,7 @@
                     flex-direction: column;
                     align-items: flex-start;
                     padding: 0px;
-                    gap: 10px;
+                    gap: 12px;
 
                     width: 595px;
                     height: 101px;
@@ -560,7 +560,7 @@
                     }
 
                     & .InfoPlans {
-                        gap: 12px;
+                        gap: 16px;
 
                         width: 530px;
                         height: 85px;
@@ -699,7 +699,7 @@
                     }
 
                     & .InfoPlans {
-                        gap: 7.5px;
+                        gap: 12px;
 
                         width: 446.25px;
                         height: 75.5px;
